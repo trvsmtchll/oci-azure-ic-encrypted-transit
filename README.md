@@ -1,7 +1,7 @@
 # Secure and Encrypt OCI Azure InterConnect
 ### Summary
 
-This example provisions and configures Aviatrix High Performance Encryption between Oracle Cloud and Microsoft Azure.
+This example provisions and configures Aviatrix High Performance Encryption between Oracle Cloud and Microsoft Azure including including the interconnect infrastructure on both sides.
 
 ### References
 
