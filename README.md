@@ -43,6 +43,7 @@ Module Name | Version | Description
 - ```terraform apply --auto-approve``` **_Runtime approx 50m repeat apply as needed_**
 - Add route rules in OCI and Azure **_Manual - 5m_**
 <img src="img/manual-routes.png">
+
 - Create Aviatrix Transit peering over private network **_Manual - 5m_**
 <img src="img/transit-peering-setup.png">
 
