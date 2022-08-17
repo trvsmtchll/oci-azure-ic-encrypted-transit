@@ -2,7 +2,7 @@
 
 ### Software
 
-- Aviatrix Controller 6.6.5545 (Launch from CSP Marketplace)
+- Aviatrix Controller 6.8.1148 (Launch from CSP Marketplace)
 - Terraform v1.1.8
 - oci cli 3.7.2
 - az cli 2.35.0

@@ -52,7 +52,7 @@ variable "oci_fastconnect_bandwidth" {
 
 variable "azure_account_name" {
   description = "Name of the Azure Access Account on Aviatrix Controller"
-  default     = ""
+  default     = "TM-Azure"
 }
 
 variable "azure_transit_cidr1" {
@@ -90,7 +90,12 @@ variable "oci_gw_size" {
 
 variable "oci_account_name" {
   description = "Name of the OCI Access Account on Aviatrix Controller"
-  default     = ""
+  default     = "TM-OCI"
+}
+
+variable "ssh_public_key" {
+  description = "For OCI VM"
+  default = ""
 }
 
 ### Variables required by the OCI Provider

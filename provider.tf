@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aviatrix = {
       source  = "AviatrixSystems/aviatrix"
-      version = "2.21.2"
+      version = "2.23.0"
     }
     azurerm = {
       source  = "hashicorp/azurerm"
@@ -19,6 +19,7 @@ provider "aviatrix" {
   controller_ip = var.controller_ip
   username      = var.username
   password      = var.password
+  #skip_version_validation = true
 }
 
 provider "azurerm" {
